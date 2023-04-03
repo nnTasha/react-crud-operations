@@ -17,6 +17,3 @@ const useLocalStorage = (key, initialValue) => {
 };
 
 export default useLocalStorage;
-//Create a git repo on git hub
-
-//deploy on vercel

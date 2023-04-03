@@ -64,52 +64,6 @@ export function ItemsProvider({ children }) {
     setItems(selectedItemId);
   };
 
-  const getUncheckedItem = (event) => {};
-
-  const updateUncheckedListItem = (id) => {
-    // const itemToUpdate = uncheckedItems.find((item) => item.id == id)
-    // setCheckedItems(prevItems => [
-    //   ...prevItems,
-    //   {
-    //     ...itemToUpdate, status : true
-    //   }
-    // ]);
-    // setUncheckedItems(prevItems =>
-    //   prevItems.filter(item => {
-    //     return item.id != itemToUpdate.id
-    //   })
-    // )
-  };
-
-  const updateCheckedListItem = (id) => {
-    // const itemToUpdate = checkedItems.find((item) => item.id == id)
-    // setUncheckedItems(prevItems => [
-    //   ...prevItems,
-    //   {
-    //     ...itemToUpdate, status : false
-    //   }
-    // ]);
-    // setCheckedItems(prevItems =>
-    //   prevItems.filter(item => {
-    //     return item.id != itemToUpdate.id
-    //   })
-    // )
-  };
-
-  // const clickHandler = (event) => {
-
-  //   if (event.type === "change" && event.target.checked) {
-
-  //     const itemToUpdateId = getCheckedItem(event);
-  //     console.log(itemToUpdateId)
-  //    updateUncheckedListItem(itemToUpdateId);
-  //   } else {
-
-  //     const uncheckedItem = getUncheckedItem(event);
-  //     updateCheckedListItem(uncheckedItem)
-  //   }
-  // }
-
   const context = {
     items,
     addItem,
